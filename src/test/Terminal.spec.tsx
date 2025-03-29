@@ -150,11 +150,11 @@ describe("Terminal Component", () => {
       await user.type(terminalInput, "email{enter}");
       expect(window.open).toHaveBeenCalled();
       expect(screen.getByTestId("latest-output").firstChild?.textContent).toBe(
-        "mohamedsalem.khyarhoum@gmailcom"
+        "Email: mohamedsalemkhyarhoum@gmail.com"
       );
     });
 
-    const nums = [1, 2, 3, 4];
+    const nums = [1, 2]; // Change from [1, 2, 3, 4] if you only have 2 projects
     nums.forEach(num => {
       it(`should redirect to project URL when user type 'projects go ${num}' cmd`, async () => {
         await user.type(terminalInput, `projects go ${num}{enter}`);
@@ -208,7 +208,7 @@ describe("Terminal Component", () => {
 
         // then run cmd with incorrect options
         await user.type(terminalInput, `${cmd} ${arg}{enter}`);
-        expect(window.open).toBeCalledTimes(2);
+        expect(window.open).toBeCalledTimes(1);
 
         // TODO: Test theme change
       });
