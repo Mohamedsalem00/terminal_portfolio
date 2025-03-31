@@ -1,7 +1,6 @@
 
 
 ![ts](https://badgen.net/badge/Built%20With/TypeScript/blue?style=flat-square)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/81fdb91d-c06f-46c2-b18d-dfc6f090f281/deploy-status)](https://app.netlify.com/sites/terminal-sn/deploys)
 ![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)
 
 My perfolio website in terminal version developed with React, TypeScript and Styled-Components. Multiple themes supported and keyboard shortcuts can be used for some functionalities.
@@ -27,10 +26,7 @@ My perfolio website in terminal version developed with React, TypeScript and Sty
 **Testing** - [Vitest](https://vitest.dev/), [React Testing Library](https://testing-library.com/)  
 **Deployment** - [Netlify](https://app.netlify.com/)
 
-## Multiple Themes
 
-Currently, this website supports 6 themes. Type `themes` in the terminal for more info.
-![terminal-portfolio-themes](https://user-images.githubusercontent.com/53733092/194221801-94f1c28b-4865-4b7f-a73e-d41132519bea.png)
 
 
 ## Running Locally
