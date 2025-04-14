@@ -1,103 +1,100 @@
 {
-    "bio": {
-        "name": "Mohamed Salem Khyarhoum",
-        "title": "Ingénieur en Sécurité des Systèmes Informatiques et Réseaux",
-        "description": "Étudiant passionné par la cybersécurité et le développement technologique. À la recherche d'un stage ou d'une opportunité pour mettre en pratique mes compétences techniques.",
-        "skills": [
-            "Linux (Ubuntu, Kali Linux)",
-            "Flutter",
-            "Laravel, Django",
-            "MySQL, Oracle Database",
-            "Python, PHP, C"
-        ]
-    },
-    "projects": [
-        {
-            "id": 1,
-            "name": "Gestion-de-la-Scolarite",
-            "description": "Plateforme de gestion des inscriptions et des notes scolaires",
-            "technologies": ["Laravel", "MySQL", "PHP"],
-            "githubLink": "https://github.com/mohamedsalem00/Gestion-Scolarite"
-        },
-        {
-            "id": 2,
-            "name": "ProfsChezVous",
-            "description": "Application mobile mettant en relation professeurs et élèves pour des cours particuliers",
-            "technologies": ["Flutter", "Django", "REST API"],
-            "githubLink": "https://github.com/mohamedsalem00/profschezvous"
-        }
-    ],
-    "certifications": [
-        "Oracle SQL (Great Learning)",
-        "Introduction to Oracle SQL (DataCamp)"
-    ],
-    "contact": {
-        "socials": [
-
-            {
-                "id": 1,
-                "title": "GitHub",
-                "url": "https://github.com/mohamedsalem00",
-                "tab": 0
-             },
-
-            {
-                "id": 2,
-                "title": "LinkedIn",
-                "url": "https://www.linkedin.com/in/mohamed-salem-kh",
-                "tab": 1
-            },
-            {
-                "id": 3,
-                "title": "Twitter",
-                "url": "https://x.com/medsalrm",
-                "tab": 2
-            },
-            {
-                "id": 4,
-                "title": "Medium",
-                "url": "https://medium.com/@mohamedsalemkhyarhoum",
-                "tab": 3
-            }
-        ],
-        "email": "mohamedsalemkhyarhoum@gmail.com",
-        "uiportfilio": "https://mohamedsalemkh.me"
-        
-    },
-    "experiences": [
-        {
-            "company": "Syskat Technologie",
-            "position": "Stagiaire",
-            "period": "Avril 2024 - Juin 2024",
-            "location": "Tevragh Zeina, Nouakchott Nord, Mauritanie",
-            "tasks": [
-                "Développement de l'application ProfsChezVous avec Flutter (frontend) et Django (backend)",
-                "Implémentation de solutions de paiement en ligne et intégration d'APIs REST",
-                "Sécurisation des données et gestion de l'authentification des utilisateurs"
-            ]
-        },
-        {
-            "company": "Syskat Technologie",
-            "position": "Stagiaire",
-            "period": "Juillet 2023 - Août 2023",
-            "location": "Tevragh Zeina, Nouakchott Nord, Mauritanie",
-            "tasks": [
-                "Développement d'une application web de gestion de scolarité avec Laravel",
-                "Optimisation des processus administratifs scolaires via une interface intuitive",
-                "Conception et gestion de bases de données MySQL"
-            ]
-        }
-    ],
-    "education": [
-        {
-            "institution": "iTeam University",
-            "degree": "Ingénieur en Sécurité des Systèmes Informatiques et Réseaux",
-            "period": "Septembre 2024 - Septembre 2027"
-        },
-        {
-            "institution": "ISCAE",
-            "degree": "Licence en Développement Informatique",
-            "period": "Janvier 2021 - Juillet 2024"
-        }
+  "bio": {
+    "name": "Mohamed Salem Khyarhoum",
+    "title": "Student Engineer in Information Systems and Network Security",
+    "description": "Passionate about cybersecurity and technological development. Currently seeking an internship or opportunity to put my technical skills into practice.",
+    "skills": [
+      "Linux (Ubuntu, Kali Linux)",
+      "Flutter",
+      "Laravel, Django",
+      "MySQL, Oracle Database",
+      "Python, PHP, C"
     ]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "name": "Gestion-de-la-Scolarite",
+      "description": "Platform for managing school registrations and grades",
+      "technologies": ["Laravel", "MySQL", "PHP"],
+      "githubLink": "https://github.com/mohamedsalem00/Gestion-Scolarite"
+    },
+    {
+      "id": 2,
+      "name": "ProfsChezVous",
+      "description": "Mobile application connecting teachers and students for private tutoring sessions",
+      "technologies": ["Flutter", "Django", "REST API"],
+      "githubLink": "https://github.com/mohamedsalem00/profschezvous"
+    }
+  ],
+  "certifications": [
+    "Oracle SQL (Great Learning)",
+    "Introduction to Oracle SQL (DataCamp)"
+  ],
+  "contact": {
+    "socials": [
+      {
+        "id": 1,
+        "title": "GitHub",
+        "url": "https://github.com/mohamedsalem00",
+        "tab": 0
+      },
+      {
+        "id": 2,
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/mohamed-salem-kh",
+        "tab": 1
+      },
+      {
+        "id": 3,
+        "title": "Twitter",
+        "url": "https://x.com/medsalrm",
+        "tab": 2
+      },
+      {
+        "id": 4,
+        "title": "Medium",
+        "url": "https://medium.com/@mohamedsalemkhyarhoum",
+        "tab": 3
+      }
+    ],
+    "email": "mohamedsalemkhyarhoum@gmail.com",
+    "uiportfilio": "https://mohamedsalemkh.me"
+  },
+  "experiences": [
+    {
+      "company": "Syskat Technologie",
+      "position": "Intern",
+      "period": "April 2024 - June 2024",
+      "location": "Tevragh Zeina, Nouakchott Nord, Mauritania",
+      "tasks": [
+        "Developed the ProfsChezVous application using Flutter (frontend) and Django (backend)",
+        "Implemented online payment solutions and integrated REST APIs",
+        "Secured data and managed user authentication"
+      ]
+    },
+    {
+      "company": "Syskat Technologie",
+      "position": "Intern",
+      "period": "July 2023 - August 2023",
+      "location": "Tevragh Zeina, Nouakchott Nord, Mauritania",
+      "tasks": [
+        "Developed a web-based school management application using Laravel",
+        "Optimized administrative processes through an intuitive interface",
+        "Designed and managed MySQL databases"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "iTeam University",
+      "degree": "Student Engineer in Information Systems and Network Security",
+      "period": "September 2024 - September 2027"
+    },
+    {
+      "institution": "ISCAE",
+      "degree": "Bachelor’s Degree in Software Development",
+      "period": "January 2021 - July 2024"
+    }
+  ]
 }
